@@ -29,7 +29,7 @@ inverse <- x$getInverse()
         return(inverse)
     }else{
     Matriz <- x$get()
-    Inverse<-x$setInverse(data)
+    Inverse<-x$setInverse(Matriz)
     return(Inverse)
 
 }
